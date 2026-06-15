@@ -1,1 +1,75 @@
+/* Paleta inspirada no campo */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f1e6;
+    color: #2f2f2f;
+}
 
+/* Cabeçalho */
+header {
+    background: linear-gradient(90deg, #2e7d32, #6d4c41);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Layout geral */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    background: white;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h3 {
+    color: #2e7d32;
+}
+
+/* Botão */
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+/* Área interativa */
+.interativo {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #6d4c41;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
